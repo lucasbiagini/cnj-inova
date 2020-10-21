@@ -1,13 +1,24 @@
 # CNJ-Inova
+Projeto do time 12 para o desafio 2 do CNJ inova
 
-Documentação do Desenvolvimento do Projeto
+## Documentação do Desenvolvimento do Projeto
 https://www.notion.so/gabrielamota29/CNJ-Inova-4e2e04294ac449849bbafdab6ac49b5c
 
 ## Iniciando o projeto
 
-1. Clone o projeto e `cd` para a pasta do projeto;
-2. Mantenha seu ambiente limpo! Crie um ambiente virtual usando `virtualenv env` e [ative o ambiente](https://docs.python.org/3/tutorial/venv.html#creating-virtual-environments);
-3. Instale as dependências usando o comando `pip install -r requirements/dev.txt`;
+1. Clone o projeto:
+git clone https://github.com/lucasbiagini/cnj-inova.git
+2. Entre na pasta do projeto:
+cd cnj-inova
+3. Crie um ambiente virtual:
+
+python3 -m venv env
+
+source env/bin/activate
+
+4. Instale as dependencias do projeto:
+cd ~/pasta/do/projeto/cnj-inova
+pip install -r requirements/env.txt
 
 ### Rodando o código
 
