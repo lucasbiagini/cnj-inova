@@ -1,0 +1,11 @@
+# Constraints holds all packages versions used by any environment
+-c constraints.txt
+
+# Dependencies common to all environments
+# numpy
+# scikit-learn 
+# scipy 
+# flask
+pandas
+jupyter
+# bitfinex-api-py

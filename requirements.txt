@@ -1,0 +1,2 @@
+# mimics prod.txt (useful for heroku-like applications)
+-r requirements/prod.txt
