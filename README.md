@@ -7,18 +7,28 @@ https://www.notion.so/gabrielamota29/CNJ-Inova-4e2e04294ac449849bbafdab6ac49b5c
 ## Iniciando o projeto
 
 1. Clone o projeto:
+```shell
 git clone https://github.com/lucasbiagini/cnj-inova.git
+```
 2. Entre na pasta do projeto:
+```shell
 cd cnj-inova
+```
 3. Crie um ambiente virtual:
 
+```shell
 python3 -m venv env
 
+# Para windows utilize `source env/Scripts/activate.bat`
 source env/bin/activate
+```
 
 4. Instale as dependencias do projeto:
+
+```shell
 cd ~/pasta/do/projeto/cnj-inova
 pip install -r requirements/env.txt
+```
 
 ### Rodando o código
 
